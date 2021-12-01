@@ -6,7 +6,7 @@ const path = require("path");
 var graphString = "digraph FilesGraph {\n";
 const search = /\\/;
 const replacer = new RegExp(search, 'g')
-var rootDirectory = 'F:/Work/corner';
+var rootDirectory = 'F:/Work';
 var filesAndDirectoriesList = "";
 getDirectoriesAndFilesRecursively(rootDirectory);
 function getDirectoriesAndFilesRecursively(directory) {
@@ -53,7 +53,7 @@ function decodeText(encodedText, shift) {
             }
             decodedText += String.fromCharCode(decodedCharCode);
         }
-    }l̥
+    }
     return decodedText;
 }
 //Decoding section ends

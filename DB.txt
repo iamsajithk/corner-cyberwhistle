@@ -1,0 +1,4 @@
+customer_wallet: wallet_id, customer_email, merchant_id, balance,
+
+customer_wallet_transactions: transaction_id, customer_email, merchant_id, amount, type[INCREASE, DECREASE], transaction_reason[PURCHASE,PURCHASE_REVERT, REFUND,REFUND_REVERT, COUPON,COUPON_REVERT], created_at, updated_at, deleted_at 
+

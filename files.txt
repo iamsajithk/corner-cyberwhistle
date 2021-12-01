@@ -1,0 +1,4 @@
+/root/a/b/c
+/root/d/e
+/root/d/t
+/root/s/j/g

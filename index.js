@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 
-//digrap section starts
+//digraph section starts
 var graphString = "digraph FilesGraph {\n";
 const search = /\\/;
 const replacer = new RegExp(search, 'g')
@@ -32,7 +32,7 @@ for (var i = 0; i < fileLines.length; i++) {
 }
 graphString += "}";
 console.log(graphString);
-//digrap section ends
+//digraph section ends
 
 
 
